@@ -1,0 +1,46 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="com.apphousebd.austhub.BaseActivity">
+
+    <item
+        android:id="@+id/action_routine"
+        android:title="Class Routine"
+        android:icon="@drawable/ic_routine" />
+
+    <item
+        android:id="@+id/action_cpga"
+        android:title="CGPA Calculator"
+        android:icon="@drawable/ic_calculator"/>
+
+    <item
+        android:id="@+id/action_alarm"
+        android:title="Set Quiz Alarm"
+        android:icon="@drawable/ic_alarm" />
+
+    <item
+        android:title="Others">
+
+        <menu>
+
+            <group>
+
+
+                <item
+                    android:id="@+id/action_settings"
+                    android:title="@string/action_settings"
+                    android:icon="@drawable/ic_settings"/>
+
+                <item
+                    android:id="@+id/action_us"
+                    android:title="About Us"
+                    android:icon="@android:drawable/ic_dialog_info"/>
+
+
+            </group>
+
+        </menu>
+
+    </item>
+
+</menu>
