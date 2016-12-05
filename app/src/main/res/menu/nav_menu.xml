@@ -1,46 +1,39 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
-      xmlns:app="http://schemas.android.com/apk/res-auto"
       xmlns:tools="http://schemas.android.com/tools"
       tools:context="com.apphousebd.austhub.BaseActivity">
 
     <item
         android:id="@+id/action_routine"
-        android:title="Class Routine"
-        android:icon="@drawable/ic_routine" />
+        android:icon="@drawable/ic_routine"
+        android:title="@string/class_routine"/>
 
     <item
         android:id="@+id/action_cpga"
-        android:title="CGPA Calculator"
-        android:icon="@drawable/ic_calculator"/>
+        android:icon="@drawable/ic_calculator"
+        android:title="@string/cgpa_calculator"/>
 
     <item
         android:id="@+id/action_alarm"
-        android:title="Set Quiz Alarm"
-        android:icon="@drawable/ic_alarm" />
+        android:icon="@drawable/ic_alarm"
+        android:title="@string/set_quiz_alarm"/>
 
     <item
-        android:title="Others">
+
+        android:title="@string/others">
 
         <menu>
-
             <group>
-
-
                 <item
                     android:id="@+id/action_settings"
-                    android:title="@string/action_settings"
-                    android:icon="@drawable/ic_settings"/>
+                    android:icon="@drawable/ic_settings"
+                    android:title="@string/action_settings"/>
 
                 <item
                     android:id="@+id/action_us"
-                    android:title="About Us"
-                    android:icon="@android:drawable/ic_dialog_info"/>
-
+                    android:icon="@android:drawable/ic_dialog_info"
+                    android:title="@string/about_us"/>
 
             </group>
-
         </menu>
-
     </item>
-
 </menu>

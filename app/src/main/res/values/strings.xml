@@ -5,4 +5,18 @@
     <string name="drawer_open">open</string>
     <string name="drawer_close">close</string>
     <string name="navigation_hreader_img">navigation hreader img</string>
+    <string name="class_routine">Class Routine</string>
+    <string name="cgpa_calculator">CGPA Calculator</string>
+    <string name="set_quiz_alarm">Set Quiz Alarm</string>
+    <string name="others">Others</string>
+    <string name="about_us">About Us</string>
+
+
+    <!--navigation menu items-->
+    <array name="nav_menu">
+
+        <item>CGPA</item>
+
+    </array>
+
 </resources>
