@@ -2,8 +2,8 @@
 Play Store Link : https://goo.gl/Rlp30J
 
 ### Technologies Used:
-  IDE : Android Studio
-  Language : Java
+  IDE : Android Studio,
+  Language : Java,
   Platform : Android
   
 #### Project details:
